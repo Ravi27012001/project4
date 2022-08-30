@@ -39,29 +39,29 @@ currentTime();
 function ravi() {
     let date = new Date(); 
 let hrr = date.getHours();
-let waketime = document.getElementById("wakeup").value
-   if(waketime == hrr){
+let waketime = document.getElementById("wakeup").value;
+   if(waketime === hrr){
       document.getElementById("changeImage").src = './Component 30 – 1.svg';
       document.getElementById("changeT").innerText = "GOOD MORNING!! WAKE UP!!";
       document.getElementById("changeText").innerText = "GRAB SOME HEALTHY BREAKFAST!!!";
 
    }
-   let lunchTime = document.getElementById("lunchh").value
-   if( lunchTime== hrr){
+   let lunchTime = document.getElementById("lunchh").value;
+   if( lunchTime=== hrr){
       document.getElementById("changeImage").src = './Component 31 – 1.svg';
       document.getElementById("changeT").innerText = "GOOD AFTERNOON!! TAKE SOME SLEEP!!";
       document.getElementById("changeText").innerText = "LETS HAVE SOME LUNCH!!!";
    }
-   let napTime = document.getElementById("napp").value
-   if( napTime== hrr){
+   let napTime = document.getElementById("napp").value;
+   if( napTime=== hrr){
       document.getElementById("changeImage").src = './lunch_image.png';
       document.getElementById("changeT").innerText = "GOOD EVENING!!";
       document.getElementById("changeText").innerText = "STOP YAWNING ,GET SOME TEA..ITS JUST EVENING!!!";
 
       }
 
-      let sleepTime = document.getElementById("nightt").value
-   if( sleepTime== hrr){
+      let sleepTime = document.getElementById("nightt").value;
+   if( sleepTime=== hrr){
       document.getElementById("changeImage").src = './Component 32 – 1.svg';
       document.getElementById("changeT").innerText = "GOOD NIGHT!!";
       document.getElementById("changeText").innerText = "CLOSE YOUR EYES AND GO TO SLEEP!!!";
